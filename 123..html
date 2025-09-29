@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intelligent Traders - Stock Market Courses</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0d0d0d;
+      color: #f2f2f2;
+    }
+    header {
+      background: #111;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      color: #32cd32;
+      margin: 0;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #32cd32;
+    }
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    }
+    .hero h2 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    .hero button {
+      padding: 12px 25px;
+      background: #32cd32;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      color: #fff;
+    }
+    .section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+    .section h2 {
+      color: #32cd32;
+      margin-bottom: 30px;
+    }
+    .courses {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .course-card {
+      background: #1a1a1a;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    }
+    .course-card h3 {
+      color: #32cd32;
+    }
+    .pricing {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .price-box {
+      background: #1a1a1a;
+      padding: 20px;
+      width: 250px;
+      border-radius: 10px;
+      border: 2px solid #32cd32;
+    }
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 14px;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background: #32cd32;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>INTELLIGENT TRADERS</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#courses">Courses</a>
+    <a href="#career">Career</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>From Knowledge to Profits</h2>
+  <p>Learn Stock Market Trading with Proven Strategies</p>
+  <button onclick="window.location='#courses'">View Courses</button>
+</section>
+
+<section class="section" id="about">
+  <h2>About Us</h2>
+  <p>Intelligent Traders is a stock market training academy helping beginners and traders 
+     master intraday, options, and hedging strategies. 
+     Our mission: To transform trading knowledge into consistent profits.</p>
+</section>
+
+<section class="section" id="courses">
+  <h2>Our Courses</h2>
+  <div class="courses">
+    <div class="course-card">
+      <h3>BTST (Buy Today Sell Tomorrow)</h3>
+      <p>Duration: 1 Day | Fees: ₹999</p>
+      <p>Learn entry/exit points & stock selection.</p>
+    </div>
+    <div class="course-card">
+      <h3>Intraday Iron Fly</h3>
+      <p>Duration: 2 Days | Fees: ₹1499</p>
+      <p>Neutral strategy with limited risk & reward.</p>
+    </div>
+    <div class="course-card">
+      <h3>Intraday Iron Condor</h3>
+      <p>Non-directional strategy for a range-bound market.</p>
+    </div>
+    <div class="course-card">
+      <h3>Zero to Hero</h3>
+      <p>Buy low premium deep OTM options for high rewards.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="career">
+  <h2>Career in Trading</h2>
+  <p>Work from anywhere, gain financial freedom, and build consistent income streams. 
+     Our students are now full-time traders making profits every month.</p>
+</section>
+
+<section class="section" id="pricing">
+  <h2>Packages & Pricing</h2>
+  <div class="pricing">
+    <div class="price-box">
+      <h3>Beginner Package</h3>
+      <p>Includes 3 starter courses</p>
+      <h4>₹2999</h4>
+      <a href="#contact" class="btn">Enroll Now</a>
+    </div>
+    <div class="price-box">
+      <h3>Pro Trader Package</h3>
+      <p>All 7 courses access</p>
+      <h4>₹5999</h4>
+      <a href="#contact" class="btn">Enroll Now</a>
+    </div>
+    <div class="price-box">
+      <h3>Lifetime Membership</h3>
+      <p>All courses + future updates</p>
+      <h4>₹9999</h4>
+      <a href="#contact" class="btn">Join Now</a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <h2>Contact Us</h2>
+  <p>📞 Phone: +91-9876543210</p>
+  <p>📧 Email: info@intelligenttraders.com</p>
+  <a href="https://wa.me/919876543210" class="btn">Chat on WhatsApp</a>
+</section>
+
+<footer>
+  <p>© 2025 Intelligent Traders | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
